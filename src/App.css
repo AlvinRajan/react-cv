@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+input {
+  padding: 5px 5px 5px 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 14px;
+  box-sizing: border-box;
+  border: 2px solid #16d36b;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus{
+  border: 1px solid red;
+}
+ button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 18px;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.edu{
+  width: 400px;
+}
+.person{
+  width: 400px;
+}
+.exp{
+  width: 400px;
+}
+.pdf{
+  width: 400px;
+}
+.person span{
+  font-size: medium;
+  padding: 20px ;
+}
+.download-btn {
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 360px;
+}
